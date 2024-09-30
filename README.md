@@ -81,7 +81,7 @@ nltk.download('stopwords')
 1. Download the dataset from the provided link.
 2. Run the script to train models and evaluate their performance:
    ```bash
-   python sentiment_classifier.py
+   python sentiment_review.py
    ```
 
 The script will output performance metrics for each model, and the best model will be evaluated on the test set.
@@ -91,16 +91,16 @@ The results of the models are summarized below:
 
 | Model                 | Precision | Recall | F1 Score |
 |-----------------------|-----------|--------|----------|
-| Logistic Regression    | xx.x%     | xx.x%  | xx.x%    |
-| Random Forest          | xx.x%     | xx.x%  | xx.x%    |
-| Support Vector Classifier (SVC) | xx.x% | xx.x% | xx.x% |
-| Gradient Boosting Classifier | xx.x% | xx.x% | xx.x%  |
+| Logistic Regression    | 0.7808    | 0.7480  | 0.7640   |
+| Random Forest          | 0.7372    | 0.6620  | 0.6976   |
+| Support Vector Classifier (SVC) | 0.7871 | 0.7540 | 0.7702 |
+| Gradient Boosting Classifier | 0.6176 | 0.7880 | 0.6924  |
 
 The confusion matrix for the best model is as follows:
-- True Positives: X
-- True Negatives: X
-- False Positives: X
-- False Negatives: X
+- True Positives: 613
+- True Negatives: 645
+- False Positives: 186
+- False Negatives: 218
 
 ## References
 - [Movie Review Dataset](https://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz)
